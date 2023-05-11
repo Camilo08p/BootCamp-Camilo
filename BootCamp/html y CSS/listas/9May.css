@@ -1,0 +1,28 @@
+body  {
+    background-color:rgba(182, 174, 104, 0.418);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #A52A2A;
+    font-size: 48px;
+}
+p{ 
+    color: rgb(4, 88, 22);
+    font-size: 18px;
+}
+
+ul > li {
+    list-style: none;
+}
+#seccion-2 {
+    margin: 0;
+    font-size: 17px;
+}
+.Secciones { 
+    padding: 20px;
+    margin: 20px 0;
+    background-color: aqua;
+    border: 10px ridge firebrick; 
+    border-radius: 50px;
+
+}

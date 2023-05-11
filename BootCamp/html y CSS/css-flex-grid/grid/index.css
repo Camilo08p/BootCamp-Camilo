@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url(https://images5.alphacoders.com/317/thumb-1920-317664.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 70% 15%;
+}
+p {
+    color: aqua;
+}
+footer {
+    justify-self: center;
+    align-self: center;
+}
+.main {
+    justify-self: end;
+    align-self: flex-end;
+}
+#header {
+    justify-self: center;
+}
+#logo { 
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px 0 0 5px;
+
+}
+ul { 
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    margin: 0;
+    
+}
+ul > li{ 
+    
+    color: blue;
+    list-style: none;
+    display: grid;
+    
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    p {font-size: 30px;
+    color: orangered;}
+    footer {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .main {
+        justify-self: center;
+        align-self: center;
+    }
+    #header {
+        justify-self: center;
+        }
+            
+    }
+
+@media screen and (max-width:300px) {
+    p {
+        font-size: 10px;
+        color: rgb(233, 233, 23);
+        
+    }
+}

@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: blue;
+}
+.header { 
+    color: aqua;
+}
+#header-id {
+    color: brown;
+}
