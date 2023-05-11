@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-style: oblique;
+    
+
+}
+body {
+    height: 100vh;
+    background-image: url(https://w.forfun.com/fetch/a9/a94b26352ecf3730e77fc503ffff7599.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    display: grid ;
+    grid-template-columns: 100%;
+}
+
+ul {
+    list-style: none;
+}
+footer { 
+    justify-self: center;
+    align-self: center;
+}
