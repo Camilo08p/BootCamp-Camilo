@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    color: antiquewhite;
+    margin: 2;
+    color: rgb(255, 255, 255);
     font-style: oblique;
     
 
@@ -11,15 +12,50 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    margin: 0;
-    display: grid ;
+    display: grid;
     grid-template-columns: 100%;
+
 }
 
+#h1 { 
+    font-size: 63px;
+}
+h2 {
+    font-size: 43px;
+}
+h3 { 
+    font-size: 30px;
+}
+p { 
+    font-size: 16px;
+}
 ul {
     list-style: none;
+    font-size: 20px;
+}
+li:hover {
+    color: blueviolet;
 }
 footer { 
     justify-self: center;
     align-self: center;
+}
+img { height: 250px;
+    width: 180px;
+    border-radius: 7%;
+}
+#SIU:hover { 
+    font-size: 50px;
+    color: blue;
+
+}
+
+
+
+
+@media screen and (max-width: 380px) {
+    body { 
+        background-image: url(https://i.pinimg.com/736x/4b/bd/cd/4bbdcd23ffda19ad68f7742f0785323f.jpg);
+    }
+    
 }

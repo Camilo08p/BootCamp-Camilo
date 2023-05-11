@@ -12,6 +12,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 15% 70% 15%;
 }
+
 p {
     color: aqua;
 }
