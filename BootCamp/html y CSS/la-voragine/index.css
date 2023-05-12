@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+main {
+    display: grid ;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+}
+p {
+    margin-top: 10px;
+    font-size: 0.8em;
+    margin-right: 100px;
+}
+h1 {
+    text-align: end;
+}
+a {
+    font-size: 0,8em;
+    color: black;
+    text-decoration: none;
+}
+.tamaño {
+    height: 100vh;
+    width: 100%;
+}
+.imagen-fragmento {
+    height: 70px;
+    width: 100px;
+}
+.imagen-pintura {
+    height: 130px;
+    width: 85px;
+}
+.contenedor-imagen-pintura {
+    display: flex;
+    flex-direction: column;
+}
+#seccion-1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#seccion-3 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#subtitulo-seccion-2 {
+    margin-bottom: 30px;
+}
+#contenedor-imagenes-seccion-2 {
+    display: flex;
+    justify-content: space-around;
+}
+#contenedor-imagenes-seccion-4 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#nombre-autor {
+    margin-left: 30px;
+}
