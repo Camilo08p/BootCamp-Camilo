@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CR7</title>
     <link rel="stylesheet" href="Formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Indie+Flower&family=Oswald:wght@300&family=Russo+One&display=swap" rel="stylesheet">
+    
 </head>
-<h1>CR7</h1>
-<p>Hola, estamos creando una nueva red social, solo para fans del GOAT, unete a nosotros</p>
 
 <body>
+    <header>
+        <div>
+            <form action="">
+            <label for="Email">Email</label>
+            <input required type="email">
+            <label for="contraseña">Contraseña</label>
+            <input required type="password">
+            <button type="submit">
+                <a href="Iniciar-sesion.html">Iniciar Sesion</a>
+            </button>
+            </form>
+        </div>
+    </header>
+    <main>
+    <h1>CR7</h1>
+        <p>Hola, estamos creando una nueva red social, solo para fans del GOAT, unete a nosotros</p>
     <form action="">
         <label for="Nombres">Nombres</label>
         <input required id="Nombres" name="Nombres" type="text">
@@ -22,6 +40,14 @@
         <br>
         <label for="Edad">Edad</label>
         <input required id="Edad" name="Edad" min="0" max="120" type="number">
+        <br>
+        <br>
+        <label for="">Genero</label>
+        <select required name="Genero" id="Genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Sin-especificar">No Especifica</option>
+        </select>
         <br>
         <br>
         <label for="Telefono">Telefono</label>
@@ -50,10 +76,8 @@
         <h3>Calma que estamos mejorando la pagina</h3>
         <img src="./Imag/2xOS.gif" alt="Calma">
 
-
-
-
     </form>
+    </main>
     
 </body>
 </html>

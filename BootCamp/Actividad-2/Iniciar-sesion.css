@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url(https://images8.alphacoders.com/476/476725.jpg);
+    background-position: center;
+    color: azure;
+}
+p {
+    font-size: 100px;
+    text-decoration: none;
+}
