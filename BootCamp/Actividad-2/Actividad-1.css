@@ -69,6 +69,13 @@ a:hover {
     font-size: 63px;
     padding-left: 10px;
 }
+#flecha {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
 
 
 @media screen and (max-width: 450px) {
