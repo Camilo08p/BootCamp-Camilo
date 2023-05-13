@@ -49,10 +49,7 @@ footer {
     display: grid;
     justify-content: center
 }
-img { height: 250px;
-    width: 180px;
-    border-radius: 7%;
-}
+
 a {
     text-decoration: none;
 }
@@ -70,10 +67,18 @@ a:hover {
     padding-left: 10px;
 }
 #flecha {
+    padding-right: 100px;
+    padding-bottom: 100px;
+    height: 7px;
+    width: 7px;
     position: fixed;
     bottom: 20px;
     right: 20px;
     
+}
+#fotos { height: 250px;
+    width: 180px;
+    border-radius: 7%;
 }
 
 
@@ -84,7 +89,8 @@ a:hover {
         font-style: inherit;
         color: black;
     }
-    img { height: 200px;
+    img { 
+        height: 200px;
         width: 130px;
         border-radius: 5%;
     }

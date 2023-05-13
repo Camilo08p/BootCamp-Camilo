@@ -21,5 +21,13 @@ main {
     margin-top: 10px;
 }
 body {
+    height: 100vh;
     background-color: goldenrod;
+}
+#siuu {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    border-radius: 5%;
+
 }
