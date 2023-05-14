@@ -24,10 +24,13 @@ body {
     height: 100vh;
     background-color: goldenrod;
 }
-#siuu {
-    position: absolute;
-    right: 20px;
-    top: 100px;
-    border-radius: 5%;
 
+
+
+@media screen and (max-width: 450px) {
+    *{
+        margin: 2;
+        font-style: inherit;
+        color: black;
+    }
 }

@@ -33,9 +33,12 @@ main {
 }
 h2 {
     font-size: 43px;
+    margin-bottom: 10px;
 }
 h3 { 
     font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 p { 
     font-size: 16px;
@@ -47,19 +50,25 @@ ul {
 
 footer { 
     display: grid;
-    justify-content: center
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
 }
-.indice {
-    color: aqua;
-}
 a:hover { 
     font-size: 150%;
     color: blue;
     text-decoration: none;
+}
+.indice {
+    color: aqua;
+}
+
+.fotos { height: 250px;
+    width: 180px;
+    border-radius: 7%;
+    margin-bottom: 70px;
 }
 #h1 { 
     margin-top: 20px;
@@ -74,12 +83,11 @@ a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    
 }
-#fotos { height: 250px;
-    width: 180px;
-    border-radius: 7%;
+#copyright {
+    margin-bottom: 0px;
 }
+
 
 
 
@@ -88,11 +96,6 @@ a:hover {
         margin: 2;
         font-style: inherit;
         color: black;
-    }
-    img { 
-        height: 200px;
-        width: 130px;
-        border-radius: 5%;
     }
     h2{
         font-size: 30px;
@@ -103,6 +106,15 @@ a:hover {
     li {
         font-size: 18px;
     }
+    div {
+        position: fixed;
+        width: 100%;
+        height: 3%;
+        background-color: goldenrod;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
     body { 
         background-image: url(https://w0.peakpx.com/wallpaper/286/247/HD-wallpaper-ronaldo-cr7-futbol.jpg);
         background-position: center;
@@ -111,7 +123,24 @@ a:hover {
         display: grid;
         grid-template-columns: 100%;
     }
+        .fotos { 
+        height: 200px;
+        width: 130px;
+        border-radius: 5%;
+    }
     #h1 {
         font-size: 40px;
+    }
+    #flecha {
+        padding-right: 100px;
+        padding-bottom: 100px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+    }
+    #calma {
+        height: 150px;
+        width: 220px;
     }
 }
