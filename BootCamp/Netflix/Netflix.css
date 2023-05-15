@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Bebas Neue', sans-serif;
 font-family: 'Russo One', sans-serif;
+
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 header {
     display: flex;
@@ -19,16 +21,77 @@ header {
 }
 main {
     color: white;
+    
+
+}
+.idioma-iniciar {
+    margin-top: 20px;
 }
 .texto-inicio {
     margin-left: 80px;
     margin-top: 100px;
     margin-right: 200px;
 }
+.section-2 {
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.cajas-1 {
+    width: 305px;
+    height: 400px;
+    background: linear-gradient(135deg, #f315b0, #9d09b1);
+    border-radius: 10px;
+}
+.degradado {
+    background: linear-gradient(15deg, #509fc9, #e83b59);
+    opacity: 0.8;
+}
 #netflix-inicio {
     font-size: 50px;
     color: red;
+    margin-top: 1px;
+}
+#idioma {
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
 }
 #pelYmas {
     font-size: 70px;
+}
+#comenzar {
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+#boton-1 {
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: red;
+    border-color: transparent;
+    border-radius: 3px;
+}
+#boton-2 {
+    height: 50px;
+    width: 160px;
+    color: white;
+    background-color: red;
+    border-color: transparent;
+    border-radius: 8px;
+    font-size: 20px;
+}
+#email {
+    height: 55px;
+    width: 400px;
+    border-radius: 6px;
+    background-color: black;
+    opacity: 0.7;
+    border-color: none;
 }
