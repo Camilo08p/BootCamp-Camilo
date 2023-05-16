@@ -1,27 +1,30 @@
-let datosCOmpletos = false
+let datosCompletos = false
 let nombre = prompt("Ingrese su nombre")
 if (nombre != "") {
+    let apellido = prompt("Ingrese apellido")
+    if (apellido != "") {
+    // alert(apellido)
+        let textoEdad = prompt("Ingrese su edad")
+        if(textoEdad != "") {
+            let edad = Number(textoEdad)
+            //alert (typeof edad)
+            if (edad >= 18) {
+                document.write("bienvenido al BAR")
+            } else {
+                alert("Eres menor de edad")
+            }
+        }else{
+            alert ("La edad es requerida")
+            window.location.reload ()
+        }
+        
+    }else{
+        alert("El apellido es requerido")
+        window.location.reload ()
+    }
 
-    alert("ingresaste el nombre " + nombre)
 } else {
     alert("El nombre es requerido")
-    window.location.reload()
+    window.location.reload ()
 }
-
-
-
-let apellido = prompt("Ingrese apellido")
-if (apellido == "") {
-    alert("el apellido es necesario")
-}
-let textoEdad = prompt("Ingrese su edad")
-let edad = Number(textoEdad)
-console.log(nombre + apellido)
-console.log(apellido)
-console.log(edad)
-
-if (edad >= 18) {
-    document.write("bienvenido al BAR")
-} else {
-    alert("Eres menor de edad")
-}
+//alert(nombre)

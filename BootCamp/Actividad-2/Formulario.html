@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >CR7Fans</title>
+    <link rel="shortcut icon" href="Imag/cr7logo.png" />
+    <link rel="stylesheet" href="Formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Indie+Flower&family=Oswald:wght@300&family=Russo+One&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            <form action="">
+            <label for="Email">Email</label>
+            <input placeholder="Email" required type="email">
+            <label for="contraseña">Contraseña</label>
+            <input placeholder="Contraseña" required type="password">
+            <button type="submit">
+                <a href="Iniciar-sesion.html">Iniciar Sesion</a>
+            </button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <p>Hola, estamos creando una nueva red social, solo para fans del GOAT, unete a nosotros</p>
+    <div>
+        <div class="crear-perfil">
+            <form class="form-crear" action="">
+                <h1>CR7Fans</h1>
+                <label for="Nombres">Nombres</label>
+                <input required placeholder="Nombres" id="Nombres" name="Nombres" type="text">
+                <br>
+                <br>
+                <label for="Apellidos">Apellidos</label>
+                <input required placeholder="Apellidos" id="Apellidos" name="Apellidos" type="text">
+                <br>
+                <br>
+                <label for="Edad">Edad</label>
+                <input required placeholder="Edad" id="Edad" name="Edad" min="0" max="120" type="number">
+                <br>
+                <br>
+                <label  for="">Genero</label>
+                <select required name="Genero" id="Genero">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Sin-especificar">No Especifica</option>
+                </select>
+                <br>
+                <br>
+                <label for="Telefono">Telefono</label>
+                <input placeholder="Telefono" required id="Telefono" type="tel">
+                <br>
+                <br>
+                <label for="Email">Email</label>
+                <input placeholder="Email" required id="Email" type="email">
+                <br>
+                <br>
+                <label for="Contraseña">Contraseña</label>
+                <input placeholder="Crea tu contraseña" required id="Contraseña" type="password">
+                <br>
+                <br>
+                <label for="Biografia">Biografia</label>
+                <br>
+                <textarea  required minlength="50" name="textarea" id="textarea" placeholder="Escribe algo sobre ti" cols="42" rows="5"></textarea>
+                <br>
+                <br>
+                <button id="crear" type="submit">Crear Perfil</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <a href="./index.html">Pagina Principal</a>
+    <br>
+    <br>
+    <br>
+    <h3>Calma que estamos mejorando la pagina</h3>
+    <img src="./Imag/2xOS.gif" alt="Calma">
+    </main>
+    
+</body>
+</html>
