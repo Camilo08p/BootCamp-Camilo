@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: 'Bebas Neue', sans-serif;
-font-family: 'Russo One', sans-serif;
 
 }
 
@@ -24,6 +22,10 @@ main {
     
 
 }
+h2 {
+    font-size: 35px;
+    font-style: normal;
+}
 .idioma-iniciar {
     margin-top: 20px;
 }
@@ -41,9 +43,14 @@ main {
 }
 .cajas-1 {
     width: 305px;
-    height: 400px;
+    height: 380px;
     background: linear-gradient(135deg, #f315b0, #9d09b1);
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
 }
 .degradado {
     background: linear-gradient(15deg, #509fc9, #e83b59);
@@ -53,6 +60,8 @@ main {
     font-size: 50px;
     color: red;
     margin-top: 1px;
+    font-family: 'Bebas Neue', sans-serif;
+
 }
 #idioma {
     color: white;
@@ -64,6 +73,9 @@ main {
 }
 #pelYmas {
     font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    
 }
 #comenzar {
     margin-left: 80px;
@@ -88,10 +100,16 @@ main {
     font-size: 20px;
 }
 #email {
+    color: white;
     height: 55px;
     width: 400px;
     border-radius: 6px;
     background-color: black;
     opacity: 0.7;
     border-color: none;
+}
+#quieres-ver {
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
