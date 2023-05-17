@@ -115,7 +115,7 @@ a:hover {
     }
     body {
         height: 100vh;
-        background-image: url(https://global-uploads.webflow.com/5b44edefca321a1e2d0c2aa6/5ff7e5316e7f1e77b4feeb3d_Dimensions-Sports-Football-Soccer-Cristiano-Ronaldo-Icon.svg);
+        background-image: url(https://i.pinimg.com/originals/b5/27/23/b52723c98251f6f8c50ea4d7f4bebdff.jpg);
         background-position: center;
         background-repeat: repeat;
         background-size: cover;
@@ -160,8 +160,9 @@ a:hover {
         color: aqua;
     }
     
-    .fotos { height: 250px;
-        width: 180px;
+    .fotos { 
+        height: 200px;
+        width: 130px;
         border-radius: 7%;
         margin-bottom: 70px;
     }
