@@ -26,31 +26,40 @@ a {
 }
 main {
     margin-top: 10px;
+    padding-right: 100px;
 }
 body {
     height: 100vh;
-    background-color: rgb(199, 199, 199);
+    background-image: url(https://images7.alphacoders.com/932/932702.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10px;
+    background-color: rgb(131, 131, 131);
+    background-blend-mode: soft-light;
 }
 button {
     background-color: goldenrod;
     border-radius: 5px;
 }
+p{
+    padding-left: 20px;
+    width: 500px;
+    font-size: 17px;
+}
 .crear-perfil {
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 .form-crear {
     background-color: rgb(121, 125, 221);
     padding: 20px;
     border-radius: 20px;
-    
 }
-
 #crear {
-    font-size: 30px;
+    font-size: 25px;
     width: 330px;
     height: 40px;
-
 }
 
 
