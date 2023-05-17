@@ -5,10 +5,12 @@
 
 body {
     height: 100vh;
-    background-image: url(https://images.reporteindigo.com/wp-content/uploads/2021/05/netflix-junio.jpg);
+    background-color: rgb(41, 40, 53);
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/51e53f54-0d9f-40ec-9e05-c030def06ac9/549cb4e0-f572-45fc-9461-f86911731699/CO-es-20230515-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: soft-light;
 
 }
 header {
@@ -25,6 +27,7 @@ main {
 h2 {
     font-size: 35px;
     font-style: normal;
+    margin-bottom: 10px;
 }
 a {
     color: white;
@@ -48,17 +51,21 @@ a {
 .cajas-1 {
     width: 305px;
     height: 380px;
-    background: linear-gradient(135deg, #f315b0, #9d09b1);
+    background: linear-gradient(135deg, #f315b0, #560061);
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 200px;
 }
-.degradado {
-    background: linear-gradient(15deg, #509fc9, #e83b59);
-    opacity: 0.8;
+.logos-cajas{
+    width: 100px;
+    height: 100px;
+}
+.logos {
+    height: 100px;
 }
 #netflix-inicio {
     font-size: 50px;
@@ -69,7 +76,7 @@ a {
 }
 #idioma {
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     opacity: 0.7;
     height: 30px;
     width: 120px;
@@ -109,7 +116,7 @@ a {
     width: 400px;
     border-radius: 6px;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.8;
     border-color: none;
 }
 #quieres-ver {

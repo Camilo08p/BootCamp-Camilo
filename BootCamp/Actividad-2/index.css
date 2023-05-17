@@ -24,6 +24,7 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    background-position-y: 10px;
     margin: 0;
 }
 main {
@@ -91,8 +92,7 @@ a:hover {
 
 
 
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 499px) {
     * {
         box-sizing: border-box;
         color: rgb(0, 0, 0);
@@ -119,6 +119,7 @@ a:hover {
         background-position: center;
         background-repeat: repeat;
         background-size: cover;
+        background-position-y: 5px ;
         margin: 0;
     }
     main {
@@ -169,6 +170,108 @@ a:hover {
     #h1 { 
         margin-top: 20px;
         font-size: 40px;
+        padding-left: 10px;
+    }
+    #flecha {
+        display: none;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        height: 10px;
+        width: 10px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    #copyright {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 780px){
+    * {
+        box-sizing: border-box;
+        color: rgb(226, 230, 226);
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Russo One', sans-serif;
+        margin-top: 0%;
+    }
+    div {
+        position: fixed;
+        width: 100%;
+        height: 4%;
+        background-color: goldenrod;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    body {
+        height: 100vh;
+        background-color: rgb(61, 61, 61);
+        background-image: url(https://wallery.app/dufovot/cristiano-ronaldo-drawing-wallpaper.webp);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        background-position-y: 5px;
+        background-blend-mode: soft-light;
+        margin: 0;
+    }
+    main {
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    h3 { 
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p { 
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    ul {
+        list-style: none;
+        font-size: 20px;
+    }
+    
+    footer { 
+        display: grid;
+        justify-content: center;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    a:hover { 
+        font-size: 120%;
+        color: blue;
+        text-decoration: none;
+    }
+    .indice {
+        color: aqua;
+    }
+    
+    .fotos { 
+        height: 300px;
+        width: 230px;
+        border-radius: 7%;
+        margin-bottom: 30px;
+    }
+    #h1 { 
+        margin-top: 30px;
+        font-size: 42px;
         padding-left: 10px;
     }
     #flecha {
