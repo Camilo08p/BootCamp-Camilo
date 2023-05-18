@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
-
+    color: white;
 }
-
 body {
     height: 100vh;
     background-color: rgb(41, 40, 53);
@@ -11,7 +10,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: soft-light;
-
 }
 header {
     display: flex;
@@ -21,17 +19,15 @@ header {
 }
 main {
     color: white;
-    
-
 }
-h2 {
+h3 {
     font-size: 35px;
     font-style: normal;
     margin-bottom: 10px;
 }
-a {
-    color: white;
-    text-decoration: none;
+footer {
+    margin-left: 70px;
+    padding-bottom: 80px;
 }
 .idioma-iniciar {
     margin-top: 20px;
@@ -67,12 +63,24 @@ a {
 .logos {
     height: 100px;
 }
-#netflix-inicio {
-    font-size: 50px;
-    color: red;
-    margin-top: 1px;
-    font-family: 'Bebas Neue', sans-serif;
-
+.section-3 {
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-top: 100px;
+    display: grid;
+}
+.boton-multiple {
+    height: 86px;
+    width: 100%;
+    background-color: rgb(0, 8, 182);
+}
+.enlaces-final{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+#logo{
+    width: 150px;
 }
 #idioma {
     color: white;
@@ -81,6 +89,10 @@ a {
     height: 30px;
     width: 120px;
     border-radius: 5px;
+}
+#iniciar-header {
+    color: white;
+    text-decoration: none;
 }
 #pelYmas {
     font-size: 70px;
@@ -123,4 +135,7 @@ a {
     font-size: 20px;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Jost', sans-serif;
+}
+#correo-final {
+    margin-top: 30px;
 }

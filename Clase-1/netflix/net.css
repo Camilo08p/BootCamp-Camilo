@@ -1,0 +1,53 @@
+.FAQ__accordian {
+    width: 100%;
+}
+.FAQ__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+}
+
+.FAQ__visible {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.FAQ__visible > p {
+    margin: 1rem;
+}
+.FAQ__list__container {
+    border-top: 8px solid #222;
+    padding: 2rem 0;
+}
+.FAQ__heading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 3rem;
+}
+
+.FAQ__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.FAQ__get__started__email {
+    text-align: center;
+}
+
+.FAQ__get__started__email > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2rem 0;
+}
