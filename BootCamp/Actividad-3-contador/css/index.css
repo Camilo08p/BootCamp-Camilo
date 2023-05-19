@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    background-color: rgb(187, 238, 238);
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+    justify-self: center;
+}
+h2 {
+    margin: 0;
+    justify-self: center;
+    font-size: 45px;
+}
+button{
+    color: white;
+    width: 120px;
+    height: 30px;
+    background-color:  rgb(62, 173, 173);
+    border-radius: 7px;
+
+}
+.contador{
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    background: linear-gradient(135deg, rgb(9, 0, 182), rgb(46, 200, 247));  
+    border-radius: 15px;
+}
