@@ -1,0 +1,50 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+.character-card {
+    width: 200px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 4px;
+    color: black;
+}
+
+.character-card h3 {
+    margin-top: 12px;
+    font-size: 18px;
+    color: black;
+}
+
+.character-card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: black;
+}
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.navigation-buttons button {
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navigation-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
