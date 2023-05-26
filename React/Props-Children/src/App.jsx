@@ -8,7 +8,8 @@ import Inosuke from './assets/img/inosuke.png'
 import Zenitsu from './assets/img/zenitsu.png'
 
 const App = () => {
-    const[mostrar, setMostrar] =useState(true)
+    const [mostrar, setMostrar] = useState(false)
+    console.log(mostrar)
 
     return(
         <div className='container'>
@@ -29,8 +30,8 @@ const App = () => {
 
             <Lista mostrar={mostrar} />
 
-            <button onClick={() => {setMostrar(true)}}>Mostrar</button>
-            <button onClick={() => {setMostrar(false)}}>Esconder</button>
+            <button onClick={() => { setMostrar(true) }}>Mostrar</button>
+            <button onClick={() => { setMostrar(false) }}>Esconder</button>
         </div>
     )
 }
