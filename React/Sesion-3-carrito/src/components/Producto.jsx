@@ -1,15 +1,16 @@
-import React from "react";
-import './../assets/css/Producto.css'
+import React from 'react'
+import '../assets/css/Producto.css'
 
+//también podemos pasar las propiedades así
 const Producto = ({ producto, agregarAlCarrito }) => {
-    const { id, titulo, precio, imagen } = producto
+    const { id, title, price, image } = producto
 
-    return(
+    return (
         <div className="product">
-            <img src={imagen} alt={titulo} />
-            <h3>{titulo}</h3>
-            <p>${precio}</p>
-            <button onClick={() => { agregarAlCarrito(id) }}>Añadir al carrito</button>
+            <img src={image} alt={title} />
+            <h3>{title}</h3>
+            <p>${price}</p>
+            <button onClick={() => agregarAlCarrito(id)}>Añadir al carrito</button>
         </div>
     )
 }
