@@ -1,0 +1,28 @@
+
+.totalCompra{
+    margin-left: 520px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    width: 300px;
+    background-color: rgb(158, 104, 104);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.divisionGeneral{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.product-list-miCarro{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    margin-left: 30px ;
+    margin-right: 20px;
+    height: 100vh;
+}

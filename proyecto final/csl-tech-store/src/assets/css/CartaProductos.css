@@ -1,0 +1,159 @@
+.divisionGeneral{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.Card{
+    /* background-color: rgb(138, 172, 211); */
+    background-image: url(https://fondosmil.com/fondo/28255.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(225, 235, 247);
+    background-blend-mode: darken;
+    width: 220px;
+    height: 270px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: grid;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.Marca{
+    color: rgb(255, 255, 255);
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.Referencia{
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+    justify-self: center;
+}
+
+.PrecioAntes{
+    color: red;
+    justify-self: center;
+    text-decoration:line-through;
+}
+.Precio{
+    color: rgb(255, 255, 255);
+    justify-self: center;
+}
+
+.Agregar{
+    background-color: rgb(243, 242, 248);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-self: center;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.imagen{
+    width: 120px;
+    height: 120px;
+    justify-self: center;
+}
+
+.Card:hover{
+    zoom: 115%;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    margin-left: 30px ;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 499px){
+    .divisionGeneral{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    
+    .Card{
+        /* background-color: rgb(138, 172, 211); */
+        background-image: url(https://fondosmil.com/fondo/28255.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(225, 235, 247);
+        background-blend-mode: darken;
+        width: 160px;
+        height: 210px;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: grid;
+        justify-content: center;
+        border-radius: 6px;
+    }
+    
+    .Marca{
+        color: rgb(255, 255, 255);
+        justify-self: center;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    
+    .Referencia{
+        margin-left: 8px;
+        margin-right: 8px;
+        color: rgb(255, 255, 255);
+        justify-self: center;
+        font-size: 12px;
+    }
+    
+    .PrecioAntes{
+        color: red;
+        justify-self: center;
+        text-decoration:line-through;
+        font-size: 10px;
+    }
+    .Precio{
+        color: rgb(255, 255, 255);
+        justify-self: center;
+        font-size: 17px;
+    }
+    
+    .Agregar{
+        background-color: rgb(243, 242, 248);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        justify-self: center;
+        width: 130px;
+        height: 30px;
+        font-size: 15px;
+    }
+    
+    .imagen{
+        width: 60px;
+        height: 60px;
+        justify-self: center;
+    }
+    
+    .Card:hover{
+        zoom: 115%;
+    }
+    
+    .product-list {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        margin-left: 30px ;
+        margin-right: 20px;
+    }
+}

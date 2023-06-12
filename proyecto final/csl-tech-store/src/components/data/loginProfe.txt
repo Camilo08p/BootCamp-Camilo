@@ -1,0 +1,44 @@
+import React from 'react'
+import { NavLink } from 'react-router-dom';
+
+
+const Login = () => {
+    const handleDisabled = () => {
+
+        if (localStorage.getItem('token') === null) {
+            return (
+                <div className='navbar-nav'>
+                    <NavLink to='/' end className={({ isActive }) => isActive ? 'myActive nav-link text-white' : 'nav-link text-white'} aria-current="page">Login</NavLink>
+                </div>
+            )
+        } else {
+            return (
+                <div className='navbar-nav'>
+                    <NavLink to='/Home' end className={({ isActive }) => isActive ? 'myActive nav-link text-white' : 'nav-link text-white'} aria-current="page">Home</NavLink>
+                    <NavLink to='/CartasCelulares' end className={({ isActive }) => isActive ? 'myActive nav-link text-white' : 'nav-link text-white'} aria-current="page">Celulares</NavLink>
+                    <NavLink to='/CartasComputadores' end className={({ isActive }) => isActive ? 'myActive nav-link text-white' : 'nav-link text-white'} aria-current="page">Computadores</NavLink>
+                    <NavLink to='/CartasTelevisores' end className={({ isActive }) => isActive ? 'myActive nav-link text-white' : 'nav-link text-white'} aria-current="page">Televisores</NavLink>
+                    <NavLink to='/Carrito' end className={({ isActive }) => isActive ? 'myActive nav-link text-white' : 'nav-link text-white'} aria-current="page">Carrito</NavLink>
+                </div>
+            )
+        }
+    }
+
+    return (
+        <nav className='navbar navbar-expand-lg bg-transparent'>
+            <div className='container-fluid'>
+                <a className='navbar-brand text-white' href='#'>CSL STORE</a>
+                <button className='navbar-toggler' type='button' data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="#navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span className='navbar-toggler-icon'></span>
+                </button>
+                <div className='collapse navbar-collapse' id='navbarNavAltMarkup' >
+                    {
+                        handleDisabled()
+                    }
+                </div>
+            </div>
+        </nav>
+    )
+}
+
+export default Login

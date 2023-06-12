@@ -1,0 +1,17 @@
+.contenedor-1{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Bienvenido{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: rgba(135, 123, 146, 0.486) 7px 5px;
+}
+
+.parrafo-sesion1{
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}

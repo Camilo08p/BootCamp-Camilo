@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.contenedorLabel{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+}
+#label{
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    background: radial-gradient( rgb(92, 117, 228), rgb(137, 21, 160), rgb(0, 0, 0));
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 800px;
+}

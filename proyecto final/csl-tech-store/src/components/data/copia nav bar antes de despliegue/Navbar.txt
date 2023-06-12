@@ -1,0 +1,53 @@
+nav {
+    background: rgb(38, 71, 141);
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    gap: 30px;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 10px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a{
+    color: white;
+    font-weight: bold;
+}
+
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.logo-1 {
+    margin-left: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+.categorias {
+    justify-self: left;
+}
