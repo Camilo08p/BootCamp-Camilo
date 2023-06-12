@@ -1,0 +1,194 @@
+{
+    "Celulares": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 2,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 3,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 4,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        
+        },
+        {
+            "id": 5,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        
+        },
+        {
+            "id": 6,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 7,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 8,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 9,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 10,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        }
+    ],
+    "Computadores":[
+        {
+            "id": 1,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 2,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 3,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 4,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        
+        },
+        {
+            "id": 5,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        
+        },
+        {
+            "id": 6,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 7,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 8,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 9,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 10,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        }
+    ],
+    "Televisores": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 2,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 3,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 4,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        
+        },
+        {
+            "id": 5,
+            "name": "Apple",
+            "referencia": "Agua",
+            "precio": 100.000
+        
+        },
+        {
+            "id": 6,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 7,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 8,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 9,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        },
+        {
+            "id": 10,
+            "name": "Samsung",
+            "referencia": "Agua",
+            "precio": 100.000
+        }
+    ]
+}

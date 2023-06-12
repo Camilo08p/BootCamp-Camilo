@@ -7,9 +7,9 @@ const ListaProductos = ({ agregarAlCarrito }) => {
     const [productos, setProductos] = useState([])
 
     useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
+    fetch('./productos.json')
         .then((response) => response.json())
-        .then((data) => setProductos(data))
+        .then((json) => setProductos(json))
     }, [])
 
     return (

@@ -34,9 +34,7 @@ const validarDatos = () => {
     }else{
         localStorage.setItem('contraseña', contraseña.value)
         contraseña.style.border = 'none'
-    }
-
-    if(contraseña.value != repetirContraseña.value){
+    }    if(contraseña.value != repetirContraseña.value){
         repetirContraseña.style.border = '2px solid red'
         alert('Hey!! las contraseñas tienen que ser iguales')
     }else{

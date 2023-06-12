@@ -1,23 +1,28 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
-import Productos from './components/Productos'
 import Carrito from './components/Carrito'
 import Navbar from "./components/Navbar"
+import Registrate from "./components/Registrate";
+
 
 const App = () => {
   
   return(
     <div>
+          <div>
       <Router>
         <Navbar/>
         <Routes>
           <Route path="/" element={ <Home/> }/>
-          <Route path="/productos" element={ <Productos/> }/>
+          <Route path="/Registrate" element={ <Registrate/> }/>
           <Route path="/carrito" element={ <Carrito/> }/>
         </Routes>
       </Router>
     </div>
+    
+    </div>
+
   )
 }
 

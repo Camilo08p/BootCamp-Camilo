@@ -1,0 +1,148 @@
+.barraNavegacion {
+    background: rgb(19, 40, 83);
+    height: 80px;
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo-1 {
+    margin-right: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 10px;
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    background: rgb(19, 40, 83);
+    padding: 10px;
+    border-radius: 7px;
+    border-top: none;
+    margin-left: 20px;
+}
+
+.dropdown.open ul {
+    display: block;
+}
+
+.dropdown ul li {
+    margin: 5px 0;
+}
+
+.active {
+    font-weight: bold;
+}
+.imagenCarrito{
+    width: 50px;
+    height: 40px
+}
+
+
+
+@media screen and (max-width: 499px){
+    .barraNavegacion {
+        background: rgb(19, 40, 83);
+        height: 60px;
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+    
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .logo-1 {
+        margin-right: 30px;
+        height: 60px;
+        width: 60px;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul li {
+        margin-right: 10px;
+        color: white;
+        font-size: 13px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        font-weight: bold;
+    }
+    
+    ul li a:hover {
+        color: white;
+    }
+    
+    .dropdown ul {
+        display: none;
+        position: absolute;
+        background: rgb(19, 40, 83);
+        padding: 10px;
+        border-radius: 7px;
+        border-top: none;
+        
+    }
+    
+    .dropdown.open ul {
+        display: block;
+    }
+    
+    .dropdown ul li {
+        margin: 5px 0;
+    }
+    
+    .active {
+        font-weight: bold;
+    }
+    .imagenCarrito{
+        width: 40px;
+        height: 30px
+    }
+}
