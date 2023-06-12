@@ -3,14 +3,13 @@ import '../assets/css/Producto.css'
 
 //también podemos pasar las propiedades así
 const Producto = ({ producto, agregarAlCarrito }) => {
-    const { id, name, referencia, precio, image } = producto
+    const { id, title, price, image } = producto
 
     return (
         <div className="product">
-            <img src={image} alt={name} />
-            <h2>{referencia}</h2>
-            <h3>{name}</h3>
-            <p>${precio}</p>
+            <img src={image} alt={title} />
+            <h3>{title}</h3>
+            <p>${price}</p>
             <button onClick={() => agregarAlCarrito(id)}>Añadir al carrito</button>
         </div>
     )

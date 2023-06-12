@@ -7,7 +7,7 @@ const Carrito = ({ itemsCarrito, removerDelCarrito }) => {
     useEffect(() => {
         const calcularPrecioTotal = () => {
             const total = itemsCarrito.reduce((accumulator, item) => {
-            return accumulator + item.precio
+            return accumulator + item.price
             }, 0);
             setPrecioTotal(total)
     };
@@ -21,7 +21,7 @@ const Carrito = ({ itemsCarrito, removerDelCarrito }) => {
             <ul>
             {itemsCarrito.map((item) => (
                 <li key={item.id}>
-                {item.title} (${item.precio})
+                {item.title} (${item.price})
                 <button onClick={() => removerDelCarrito(item.id)}>Eliminar</button>
                 </li>
             ))}
